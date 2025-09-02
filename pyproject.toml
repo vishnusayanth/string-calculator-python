@@ -1,0 +1,10 @@
+
+[project]
+name = "string-calculator"
+version = "0.1.0"
+description = "String Calculator kata in Python with TDD"
+requires-python = ">=3.9"
+
+[tool.pytest.ini_options]
+addopts = "-q"
+pythonpath = ["src"]
